@@ -1,21 +1,14 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
-=======
-<!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js ie8"> <![endif]-->
 <!--[if IE 9]>         <html class="no-js ie9"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
->>>>>>> prueba
 <head>
 <title>Arkev | Hosting </title>
+<!--Metas-->
 <meta name="description" content="hosting">
 <meta name="keywords" content="hosting, guadalajara, monterrey">
-<<<<<<< HEAD
 <meta name="author" content="arkev.com">
-=======
-<meta name="author" content="arkev.com">
->>>>>>> prueba
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; target-densitydpi=160dpi;">
@@ -23,39 +16,41 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+<!-- favicon -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<!-- 57x57 (precomposed) for iPhone 3GS, 2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="favicon.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and 2012 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon.png">
+
+<!-- Splash Screen -->	
+<!-- iPhone 3GS, 2011 iPod Touch -->
+<link rel="apple-touch-startup-image" href="startup-320x460.png" media="screen and (max-device-width : 320px)">
+<!-- iPhone 4, 4S and 2011 iPod Touch -->
+<link rel="apple-touch-startup-image" href="startup-640x920.png" media="(max-device-width : 480px) and (-webkit-min-device-pixel-ratio : 2)">
+<!-- iPhone 5 and 2012 iPod Touch -->
+<link rel="apple-touch-startup-image" href="startup-640x1096.png" media="(max-device-width : 548px) and (-webkit-min-device-pixel-ratio : 2)">
+<!-- iPad landscape -->
+<link rel="apple-touch-startup-image" sizes="1024x748" href="startup-1024x748.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)">
+<!-- iPad Portrait -->
+<link rel="apple-touch-startup-image" sizes="768x1004" href="startup-768x1004.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)">
+
 <!-- !Estilos -->
 <link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.1/normalize.css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 
-<script type="text/javascript" src="js/maxheight.js"></script>
-<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-replace.js"></script>
-<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
-<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
-<script type="text/javascript" src="js/jquery.faded.js"></script>
-<script type="text/javascript" src="js/jquery.jqtransform.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript">
-	$(function(){
-		$("#faded").faded({
-			speed: 500,
-			crossfade: true,
-			autoplay: 10000,
-			autopagination:false
-		});
-		
-		$('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
-	});
-</script>
-<!--[if lt IE 9]>
-<script type="text/javascript" src="js/html5.js"></script>
-<![endif]-->
+<!-- Modernizr -->
+<script src="http://modernizr.com/downloads/modernizr.js"></script>
+
 </head>
 <body id="page1" onLoad="new ElementMaxHeight();">
 <div class="tail-top">
-<!-- header -->
+<!-- !header -->
 	<header>
 		<div class="container">
 			<div class="header-box">
@@ -90,7 +85,7 @@
 			</form>
 		</div>
 	</header>
-<!-- content -->
+<!-- !content -->
 	<section id="content">
 		<div class="container">
 			<div id="faded">
@@ -278,7 +273,7 @@
 		</div>
 	</section>
 </div>
-<!-- aside -->
+<!-- !aside -->
 <aside>
 	<div class="container">
 		<div class="inside">
@@ -338,7 +333,7 @@
 		</div>
 	</div>
 </aside>
-<!-- footer -->
+<!-- !footer -->
 <footer>
 	<div class="container">
 		<div class="inside">
@@ -347,6 +342,29 @@
 		</div>
 	</div>
 </footer>
-<script type="text/javascript"> Cufon.now(); </script>
+<!-- !scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/maxheight.js"></script>
+<!-- Logo y tipografía-->
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/Myriad_Pro_300.font.js"></script>
+<script src="js/Myriad_Pro_400.font.js"></script>
+<script> Cufon.now(); </script>
+<!-- slider -->
+<script src="js/jquery.faded.js"></script>
+<script src="js/jquery.jqtransform.js"></script>
+<script src="js/script.js"></script>
+<script>
+	$(function fade(){
+		$("#faded").faded({
+			speed: 500,
+			crossfade: true,
+			autoplay: 10000,
+			autopagination:false
+		});
+		$('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+	});
+</script>
 </body>
 </html>
