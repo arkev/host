@@ -1,8 +1,8 @@
 <?php $active_page="inicio"; ?>
 <?php include 'head.php';?>
 <title>Arkev | Hosting </title>
-<meta name="description" content="hosting">
-<meta name="keywords" content="hosting, guadalajara, monterrey">
+<meta name="description" content="servicio de hosting de alta calidad en México, registro de dominios y diseño web creativo y compatible con celulares y tablets a precios justos">
+<meta name="keywords" content="hosting, guadalajara, monterrey, méxico, hospedaje web, dominios, diseño web, crear paginas web, registro de dominios">
 </head>
 <body id="page1" onLoad="new ElementMaxHeight();">
 <div class="tail-top">
