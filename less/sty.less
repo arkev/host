@@ -2,6 +2,9 @@
 @import "variab";
 @import "typeimg";
 
+//Variables
+@ColorBase:#82B704;
+
 /* !index */
 #page1 #content {
 	.row-1 {
@@ -140,6 +143,13 @@ h1 {
 	margin: .5em;
 	.inline-block;
 	a {text-decoration:none}
+	.icon-cloud-hosting:before {
+		vertical-align: bottom;
+		line-height: .7em;
+		color:@ColorBase;
+		.font-size(35);
+		.text-shadow(1px,1px, 2px, @negro);
+	}
 }
 h2 {color:#464646;font-size:30px;line-height:1.2em;margin-bottom:15px;letter-spacing:-1px}
 h2.extra {padding:30px 0 0 43px}
@@ -148,7 +158,7 @@ h4 {font-size:20px;line-height:1.2em;color:#fff;margin-bottom:27px;letter-spacin
 h4.extra {margin-bottom:12px}
 h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 a:link{
-	color: #82B704;
+	color: @ColorBase;
 	&.link1 {
 		display:inline-block;
 		color:#fff;
@@ -159,7 +169,7 @@ a:link{
 		padding-right:7px;
 		letter-spacing:-1px;
 		text-transform:uppercase;
-		&:hover {color:#82b704}
+		&:hover {color:@ColorBase}
 		span {
 			display:block;
 			background:url(../images/link1-left.png) no-repeat left top;
@@ -191,12 +201,54 @@ a:link{
 	}
 }
 
+@font-face {
+  font-family: "arkev-host";
+  src:url("../fonts/arkev/arkev-host.eot");
+  src:url("../fonts/arkev/arkev-host.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/arkev/arkev-host.ttf") format("truetype"),
+    url("../fonts/arkev/arkev-host.svg#arkev-host") format("svg"),
+    url("../fonts/arkev/arkev-host.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "arkev-host" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "arkev-host" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-cloud-hosting:before {
+  content: "a";
+}
+
 .link3 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link3-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
-.link3:hover {color:#82b704}
+.link3:hover {color:@ColorBase}
 .link3 span {display:block;background:url(../images/link3-left.gif) no-repeat left top}
 .link3 span span {background:url(../images/link3-right.gif) no-repeat right top;padding:8px 19px}
 .link4 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link4-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
-.link4:hover {color:#82b704}
+.link4:hover {color:@ColorBase}
 .link4 span {display:block;background:url(../images/link4-left.gif) no-repeat left top}
 .link4 span span {background:url(../images/link4-right.gif) no-repeat right top;padding:10px 22px}
 .line-ver1 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:336px 0;width:100%}
@@ -253,7 +305,7 @@ header {
 				color:#fff;
 				text-decoration:none;
 			}
-			&.current a, a:hover {color:#82b704;}
+			&.current a, a:hover {color:@ColorBase;}
 		}
 	}
 	.top-info {
@@ -357,7 +409,7 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #faded ul.pagination li a small {display:inline-block;color:#428301;background-repeat:no-repeat;background-position:right -80px;background-image:url(../images/arrows.gif);padding:0 17px 0 0}
 #faded ul.pagination li a span,
 #faded ul.pagination li a small {padding-left:40px}
-#faded ul.pagination li.current a small {color:#82b704;background-position:right 5px}
+#faded ul.pagination li.current a small {color:@ColorBase;background-position:right 5px}
 #faded ul.slides li {position:relative;width:100%}
 #faded ul.slides li img {position:absolute;top:71px;right:35px}
 #faded ul.slides li a {color:#fff;text-transform:uppercase;text-decoration:none;position:absolute;right:43px;top:217px;font-size:18px;line-height:1.2em;padding-left:8px;background:url(../images/button-left.png) no-repeat left top;letter-spacing:-1px}

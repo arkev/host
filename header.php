@@ -8,5 +8,5 @@
         	<li><a href="#">Contacto</a></li>
         </ul>
     </nav>
-    <h1><a href="/inicio"><span>Arkev</span>Host</a></h1>
+    <h1><a href="/inicio"><span class="icon-cloud-hosting">Arkev</span>Host</a></h1>
 </header>
