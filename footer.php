@@ -1,9 +1,56 @@
+<!-- !aside -->
+<aside>
+	<div class="container">
+		<div class="inside">
+			<div class="line-ver1">
+				<div class="line-ver2">
+					<div class="line-ver3">
+						<div class="wrapper line-ver4">
+							<ul class="list col-1">
+								<li>Llamanos:</li>
+								<li><a href="tel:81-1320-5591">81 1320 5591</a></li>
+								<li><a href="skype:arkevo777">Skype<br><br></a></li>
+								<li>
+									Horario de atención: <br>
+									lunes a viernes<br> 8am - 8pm
+								</li>
+							</ul>
+							<ul class="list col-2">
+								<li>Principal</li>
+								<li><a href="/inicio">Inicio</a></li>
+								<li><a href="#">Servicios</a></li>
+								<li><a href="#">Paquetes</a></li>
+								<li><a href="#">Contacto</a></li>
+							</ul>
+							<ul class="list col-3">
+								<li>Soluciones</li>
+								<li><a href="#">Páginas web</a></li>
+								<li><a href="#">¿Cómo contratar?</a></li>
+								<li><a href="#">registra tu pago</a></li>
+							</ul>
+							<ul class="list col-4">
+								<li>Soporte</li>
+								<li><a href="#">Soporte técnico</a></li>
+								<li><a href="#">FAQ’s</a></li>
+							</ul>
+							<ul class="list col-5">
+								<li>Redes sociales</li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Google Plus</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</aside>
 <!-- !footer -->
 <footer>
 	<div class="container">
 		<div class="inside">
-			<a href="http://www.templatemonster.com" class="new_window">Website template</a> designed by TemplateMonster.com<br>
-			<a href="http://www.templates.com/product/3d-models/" class="new_window">3D Models</a> provided by Templates.com
+			® Todos los derechos reservados <?php echo date('Y'); ?> <a href="http://arkev.com" class="new_window">arkev.com</a> | <a href="#" class="new_window">Políticas de privacidad</a> | <a href="#" class="new_window">Aviso legal</a>
 		</div>
 	</div>
 </footer>
@@ -16,21 +63,9 @@
 <script src="js/Myriad_Pro_300.font.js"></script>
 <script src="js/Myriad_Pro_400.font.js"></script>
 <script> Cufon.now(); </script>
-<!-- slider -->
-<script src="js/jquery.faded.js"></script>
-<script src="js/jquery.jqtransform.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
 <script src="js/script.js"></script>
-<script>
-	$(function fade(){
-		$("#faded").faded({
-			speed: 500,
-			crossfade: true,
-			autoplay: 10000,
-			autopagination:false
-		});
-		$('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
-	});
-</script>
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

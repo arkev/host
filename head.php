@@ -40,5 +40,8 @@
 <!-- !Estilos -->
 <link rel="stylesheet" href="http://necolas.github.io/normalize.css/2.1.1/normalize.css" media="all">
 <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+
 <!-- Modernizr -->
 <script src="http://modernizr.com/downloads/modernizr.js"></script>

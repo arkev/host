@@ -11,20 +11,14 @@
 <!-- !content -->
 	<section id="content">
 		<div class="container">
-			<div id="faded">
-				<ul class="slides">
-					<li><img src="images/slide-title1.gif"><a href="#"><span><span>Learn More</span></span></a></li>
-					<li><img src="images/slide-title4.gif"><a href="#"><span><span>Learn More</span></span></a></li>
-					<li><img src="images/slide-title3.gif"><a href="#"><span><span>Learn More</span></span></a></li>
-					<li><img src="images/slide-title2.gif"><a href="#"><span><span>Learn More</span></span></a></li>
-				</ul>
-				<ul class="pagination">
-					<li><a href="#" rel="0"><span>Web Hosting</span><small>Get more information</small></a></li>
-					<li><a href="#" rel="1"><span>Broadband</span><small>Get more information</small></a></li>
-					<li><a href="#" rel="2"><span>Email Hosting</span><small>Get more information</small></a></li>
-					<li><a href="#" rel="3"><span>Dedicated</span><small>Get more information</small></a></li>
-				</ul>
-			</div>
+			<!-- !Slider -->
+			<ul class="bxslider">
+			  <li><img src="images/slider-bg.jpg"></li>
+			  <li><img src="images/slider-02.jpg"></li>
+			  <li><img src="images/slider-03.jpg"></li>
+			</ul>
+			<!-- /Slider -->
+			<!-- !Inside -->
 			<div class="inside">
 				<div class="wrapper row-1">
 					<div class="box col-1 maxheight">
@@ -36,16 +30,16 @@
 											<div class="right-bot-corner maxheight">
 												<div class="left-bot-corner maxheight">
 													<div class="inner">
-														<h3>Basic Plan</h3>
+														<h3>Básico</h3>
 														<ul class="info-list">
-															<li><span>Disk space</span>300 Gb</li>
-															<li><span>Monthly transfer</span>3000 Gb</li>
-															<li><span>FTP accounts</span>25</li>
-															<li><span>Email boxes</span>1000</li>
-															<li><span>Free domains</span>1</li>
+															<li><span>Espacio</span>1 Gb</li>
+															<li><span>Transferencia</span>10 Gb</li>
+															<li><span>Cuentas FTP</span>1</li>
+															<li><span>Cuentas de e-mail</span>10</li>
+															<li><span>Dominio gratis</span>1</li>
 														</ul>
-														<span class="price">$ 9.95 p/m</span>
-														<div class="aligncenter"><a href="#" class="link1"><span><span>Learn More</span></span></a></div>
+														<span class="price">$500</span>
+														<div class="aligncenter"><a href="#" class="link1"><span><span>Contratar</span></span></a></div>
 													</div>
 												</div>
 											</div>
@@ -64,16 +58,16 @@
 											<div class="right-bot-corner maxheight">
 												<div class="left-bot-corner maxheight">
 													<div class="inner">
-														<h3>Economy Plan</h3>
+														<h3>Plus</h3>
 														<ul class="info-list">
-															<li><span>Disk space</span>500 Gb</li>
-															<li><span>Monthly transfer</span>5000 Gb</li>
-															<li><span>FTP accounts</span>50</li>
-															<li><span>Email boxes</span>2500</li>
-															<li><span>Free domains</span>2</li>
+															<li><span>Espacio</span>10 Gb</li>
+															<li><span>Transferencia</span>100 Gb</li>
+															<li><span>Cuentas FTP</span>10</li>
+															<li><span>Cuentas de e-mail</span>100</li>
+															<li><span>Dominio gratis</span>1</li>
 														</ul>
-														<span class="price">$ 14.95 p/m</span>
-														<div class="aligncenter"><a href="#" class="link1"><span><span>Learn More</span></span></a></div>
+														<span class="price">$1000</span>
+														<div class="aligncenter"><a href="#" class="link1"><span><span>Contratar</span></span></a></div>
 													</div>
 												</div>
 											</div>
@@ -92,16 +86,16 @@
 											<div class="right-bot-corner maxheight">
 												<div class="left-bot-corner maxheight">
 													<div class="inner">
-														<h3>Deluxe Plan</h3>
+														<h3>Pro</h3>
 														<ul class="info-list">
-															<li><span>Disk space</span>800 Gb</li>
-															<li><span>Monthly transfer</span>8000 Gb</li>
-															<li><span>FTP accounts</span>70</li>
-															<li><span>Email boxes</span>3000</li>
-															<li><span>Free domains</span>3</li>
+															<li><span>Espacio</span>20 Gb</li>
+															<li><span>Transferencia</span>200 Gb</li>
+															<li><span>Cuentas FTP</span>20</li>
+															<li><span>Cuentas de e-mail</span>200</li>
+															<li><span>Dominio gratis</span>1</li>
 														</ul>
-														<span class="price">$ 19.95 p/m</span>
-														<div class="aligncenter"><a href="#" class="link1"><span><span>Learn More</span></span></a></div>
+														<span class="price">$1700</span>
+														<div class="aligncenter"><a href="#" class="link1"><span><span>Contratar</span></span></a></div>
 													</div>
 												</div>
 											</div>
@@ -120,16 +114,16 @@
 											<div class="right-bot-corner maxheight">
 												<div class="left-bot-corner maxheight">
 													<div class="inner">
-														<h3>Unlimited Plan</h3>
+														<h3>Master</h3>
 														<ul class="info-list">
-															<li><span>Disk space</span>Unlimited</li>
-															<li><span>Monthly transfer</span>Unlimited</li>
-															<li><span>FTP accounts</span>Unlimited</li>
-															<li><span>Email boxes</span>Unlimited</li>
-															<li><span>Free domains</span>Unlimited</li>
+															<li><span>Espacio</span>30 gb</li>
+															<li><span>Transferencia</span>Ilimitada</li>
+															<li><span>Cuentas FTP</span>30</li>
+															<li><span>Cuentas de e-mail</span>Ilimitados</li>
+															<li><span>Dominio gratis</span>1</li>
 														</ul>
 														<span class="price">$ 24.95 p/m</span>
-														<div class="aligncenter"><a href="#" class="link1"><span><span>Learn More</span></span></a></div>
+														<div class="aligncenter"><a href="#" class="link1"><span><span>Contratar</span></span></a></div>
 													</div>
 												</div>
 											</div>
@@ -141,24 +135,24 @@
 					</div>
 				</div>
 				<div class="inside1">
-					<div class="wrap row-2">
+					<div class="row-2">
 						<article class="col-1">
-							<h2>Solutions</h2>
+							<h2>Soluciones</h2>
 							<ul class="solutions">
-								<li><img src="images/icon1.gif"><p>Quickly and easily create a Web Page</p><a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon2.gif"><p>Share documents any time, any where</p><a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon3.gif"><p>24/7 Real Person Customer Support</p><a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon4.gif"><p>Online Account Management Tools</p><a href="#"><b>Read More</b></a></li>
+								<li><img src="images/icon1.gif"><p>Páginas web compatibles con celulares y tablets</p><a href="#"><b>Leer más</b></a></li>
+								<li><img src="images/icon2.gif"><p>Comparte documentos en cualquier momento y en cualquier lugar</p><a href="#"><b>Leer más</b></a></li>
+								<li><img src="images/icon3.gif"><p>Soporte en español</p><a href="#"><b>Leer más</b></a></li>
+								<li><img src="images/icon4.gif"><p>Respaldos semanales de tus archivos</p><a href="#"><b>Leer más</b></a></li>
 							</ul>
 						</article>
 						<article class="col-2">
-							<h2>Register Domain Name</h2>
+							<h2>Buscador de dominios</h2>
 							<form action="" id="domain-form">
 								<div class="img-box"><img src="images/1page-img.jpg">
 									<div class="extra-wrap">
 										<fieldset>
 											<span class="text">
-												<input type="text" value="enter domain name" onFocus="if(this.value=='enter domain name'){this.value=''}" onBlur="if(this.value==''){this.value='enter domain name'}">
+												<input type="text" value="Escribe el nombre del dominio" onFocus="if(this.value=='enter domain name'){this.value=''}" onBlur="if(this.value==''){this.value='enter domain name'}">
 											</span>
 											<ul class="checkboxes wrapper">
 												<li><input type="checkbox"><label>.mx</label></li>
@@ -176,85 +170,32 @@
 									</div>
 								</div>
 								<div class="wrapper">
-									<a href="#" class="link2 fleft" onClick="document.getElementById('domain-form').submit()"><span><span>Check  Domain</span></span></a>
+									<a href="#" class="link2 fleft" onClick="document.getElementById('domain-form').submit()"><span><span>Buscar</span></span></a>
 									<ul class="links fleft">
-										<li><a href="#">Renew a domain</a></li>
-										<li><a href="#">Transfer a domain</a></li>
+										<li><a href="#">Renovar dominio</a></li>
+										<li><a href="#">Transferir dominio</a></li>
 										<li><a href="#">WHOIS</a></li>
 									</ul>
 								</div>
 							</form>
-							<h2>Your Domain Name Helps the World  to Find You</h2>
-							<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
-							<p>Voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-							<a href="#" class="link2"><span><span>Read More</span></span></a>
 						</article>
 						<div class="clear"></div>
 					</div>
+					<div class="row-3">
+						<h2>Cómo elegir el dominio adecuado para tu web</h2>
+							<p>Aunque a veces parezca lo contrario, elegir un nombre de dominio no es una tarea sencilla. Recordemos que un nombre de dominio tiene diversas funciones o usos: <br><br>
+							</p>
+							<ul>
+								<li>primordialmente funciona como un identificador en internet; sirve para identificar nuestra marca, producto, servicio o empresa en la red</li>
+								<li>nuestros correos electrónicos estarán formados por el nombre de dominio que registremos</li>
+								<li>si nuestro portal es grande podemos agregar subdominios para que los visitantes encuentren más fácilmente determinada información</li>
+								<li>para promocionar nuestra empresa, productos o servicios incluimos nuestro nombre de dominio en tarjetas de presentación, papelería, mantas, folletos, panorámicos o cualquier otra plataforma publicitaria.</li>
+							</ul>
+							<a href="#" class="link2"><span><span>Leer más</span></span></a>
+					</div>
 				</div>
-			</div>
+			</div><!-- /Inside -->
 		</div>
 	</section>
 </div>
-<!-- !aside -->
-<aside>
-	<div class="container">
-		<div class="inside">
-			<div class="line-ver1">
-				<div class="line-ver2">
-					<div class="line-ver3">
-						<div class="wrapper line-ver4">
-							<ul class="list col-1">
-								<li>Account Manager</li>
-								<li><a href="#">My Account</a></li>
-								<li><a href="#">My Renewals</a></li>
-								<li><a href="#">My Upgrades</a></li>
-								<li><a href="#">Account Settings</a></li>
-								<li><a href="#">Customer Information</a></li>
-								<li><a href="#">Order History</a></li>
-							</ul>
-							<ul class="list col-2">
-								<li>Shopping</li>
-								<li><a href="#">Offer Disclaimers</a></li>
-								<li><a href="#">Domain Search</a></li>
-								<li><a href="#">Product Catalog</a></li>
-								<li><a href="#">Producr Advisor</a></li>
-								<li><a href="#">Gift Cards</a></li>
-								<li><a href="#">Mobile</a></li>
-							</ul>
-							<ul class="list col-3">
-								<li>Resources</li>
-								<li><a href="#">Webmail</a></li>
-								<li><a href="#">WHOIS search</a></li>
-								<li><a href="#">ICANN Confirmation</a></li>
-								<li><a href="#">Affiliates</a></li>
-								<li><a href="#">Connect with Us</a></li>
-								<li><a href="#">Gadgets / Widgets</a></li>
-							</ul>
-							<ul class="list col-4">
-								<li>Help and Support</li>
-								<li><a href="#">Support &amp; Sales</a></li>
-								<li><a href="#">Billing Support</a></li>
-								<li><a href="#">Email Our Support Team</a></li>
-								<li><a href="#">FAQ’s</a></li>
-								<li><a href="#">User’s Guides</a></li>
-								<li><a href="#">Report Spam</a></li>
-							</ul>
-							<ul class="list col-5">
-								<li>About</li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Security Center</a></li>
-								<li><a href="#">Company Info</a></li>
-								<li><a href="#">News Center</a></li>
-								<li><a href="#">Customer Testimonials</a></li>
-								<li><a href="#">What’s New</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</aside>
-
 <?php include 'footer.php';?>
