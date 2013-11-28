@@ -3,7 +3,7 @@
     <nav>
         <ul>
         	<li<?php if ($active_page=="inicio") echo " class='current'"; ?>><a href="/inicio">Inicio</a></li>
-        	<li><a href="#">Servicios</a></li>
+        	<li<?php if ($active_page=="servicios") echo " class='current'"; ?>><a href="/servicios">Servicios</a></li>
         	<li><a href="#">Paquetes</a></li>
         	<li><a href="#">Contacto</a></li>
         </ul>

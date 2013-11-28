@@ -122,7 +122,7 @@
 															<li><span>Cuentas de e-mail</span>Ilimitados</li>
 															<li><span>Dominio gratis</span>1</li>
 														</ul>
-														<span class="price">$ 24.95 p/m</span>
+														<span class="price">$ 2500</span>
 														<div class="aligncenter"><a href="#" class="link1"><span><span>Contratar</span></span></a></div>
 													</div>
 												</div>

@@ -117,10 +117,29 @@ footer .container {text-align:center;line-height:1.667em;padding:26px 0}
 .list li a:hover {color:#6fa803}
 .list1 {padding-bottom:11px} 
 .list1 li {padding:0 0 15px 10px;height:1%;background:url(../images/marker.gif) no-repeat left 4px}
-.banners {padding:12px 0 0 0}
-.banners li {float:left;font-size:26px;line-height:2.4em;letter-spacing:-1px;margin-left:6px}
-.banners li:first-child {margin-left:0}
-.banners li a {width:242px;display:block;height:65px;background:url(../images/banner-bg.gif) no-repeat left top;text-align:center;color:#fff;text-decoration:none}
+
+.banners {
+	padding:12px 0 0 0;
+	li {
+		float:left;
+		font-size:26px;
+		line-height:2.4em;
+		letter-spacing:-1px;
+		margin-left:6px;
+		list-style-type: none;
+		&:first-child {margin-left:0;}
+		a {
+			width:242px;
+			display:block;
+			height:65px;
+			background:url(../images/banner-bg.gif) no-repeat left top;
+			text-align:center;
+			color:#fff;
+			text-decoration:none;
+		}
+	}
+}
+
 /* other */
 .img-indent {margin:0 20px 0 0;float:left}
 .img-box {width:100%;overflow:hidden;padding-bottom:12px;line-height:1.667em}
