@@ -26,29 +26,42 @@ Hosting de alto rendimiento con tiempo de funcionamiento garantizado del 99.9%, 
 					<li><a href="#">Master  &nbsp; <b>$2500</b></a></li>
 				</ul>
 				<div class="inside1">
-					<div class="wrap row-2">
-						<article class="col-1">
-							<ul class="solutions">
-								<li><img src="images/icon1.gif">
-									<p>Quickly and easily create a Web Page</p>
-									<a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon2.gif">
-									<p>Share documents any time, any where</p>
-									<a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon3.gif">
-									<p>24/7 Real Person Customer Support</p>
-									<a href="#"><b>Read More</b></a></li>
-								<li><img src="images/icon4.gif">
-									<p>Online Account Management Tools</p>
-									<a href="#"><b>Read More</b></a></li>
-							</ul>
-						</article>
-						<article class="col-2">
-							<h2>Services Overview</h2>
-							<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturxcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-							<div class="img-box"><img src="images/2page-img.jpg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloreque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem eaque ipsa quae sequi nesciunt. </div>
-							<p class="p1">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur vero eos et accusamus et iusto.</p>
-							<a href="#" class="link2"><span><span>Read More</span></span></a> </article>
+					<div class="row-2">
+						<section id="servicios">
+							<h2>Otros servicios</h2>
+							<article>
+								<strong>Diseño web</strong>
+								<div class="icon icon-diseno"></div>
+								<p class="align-justify">
+									Servicio de diseño web de alta calidad con diseños creativos que dan vida a tus ideas, compatibles con smartphones y tablets.
+								</p>
+								<a href="#" class="link2"><span><span>Leer más</span></span></a> 
+							</article>
+							<article>
+								<strong>Desarrollo de apps</strong>
+								<div class="icon icon-apps"></div>
+								<p class="align-justify">
+									Desarrollo de apps, creativas, divertidas, funcionales e interactivas. destaca tu empresa con una app para iOS o Android.
+								</p>
+								<a href="#" class="link2"><span><span>Leer más</span></span></a> 
+							</article>
+							<article>
+								<strong>Email marketing</strong>
+								<div class="icon icon-mailing"></div>
+								<p class="align-justify">
+									Comunicación masiva y efectiva, fideliza a tus clientes y conviertelos en recurrentes de manera fácil y de bajo costo.
+								</p>
+								<a href="#" class="link2"><span><span>Leer más</span></span></a> 
+							</article>
+							<article>
+								<strong>Posicionamiento (SEO)</strong>
+								<div class="icon icon-seo"></div>
+								<p class="align-justify">
+									Haga visible su pagina de internet con nuestro servicio de posicionamiento web natural en buscadores como Google, Bing, Yahoo etc...
+								</p>
+								<a href="#" class="link2"><span><span>Leer más</span></span></a> 
+							</article>
+							</section>
 						<div class="clear"></div>
 					</div>
 				</div>
