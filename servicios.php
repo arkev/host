@@ -1,12 +1,12 @@
 <?php $active_page="servicios"; ?>
-<?php include 'head.php';?>
+<?php include 'includes/head.php';?>
 <title>Arkev | Hosting - Servicios</title>
-<meta name="description" content="servicio de hosting de alta calidad en México, registro de dominios y diseño web creativo y compatible con celulares y tablets a precios justos">
-<meta name="keywords" content="hosting, guadalajara, monterrey, méxico, hospedaje web, dominios, diseño web, crear paginas web, registro de dominios">
+<meta name="description" content="servicio de hosting, diseño y desarrollo web, diseño y desarrollo de apps, newsletters o email marketing, posicionamiento en los buscadores son algunos de los servicios que ofrecemos.">
+<meta name="keywords" content="hosting, guadalajara, monterrey, méxico, hospedaje web, dominios, diseño web, crear paginas web, registro de dominios, diseño, desarrollo, apps, newsletters, email marketing, posicionamiento, seo, buscadores">
 </head>
 <body id="page2">
 <div class="tail-top1">
-<?php include 'header.php';?>
+<?php include 'includes/header.php';?>
 
 <!-- content -->
 	<section id="content">
@@ -57,7 +57,7 @@ Hosting de alto rendimiento con tiempo de funcionamiento garantizado del 99.9%, 
 								<strong>Posicionamiento (SEO)</strong>
 								<div class="icon icon-seo"></div>
 								<p class="align-justify">
-									Haga visible su pagina de internet con nuestro servicio de posicionamiento web natural en buscadores como Google, Bing, Yahoo etc...
+									Haga visible su página de internet con nuestro servicio de posicionamiento web natural en buscadores como Google, Bing, Yahoo etc...
 								</p>
 								<a href="#" class="link2"><span><span>Leer más</span></span></a> 
 							</article>
@@ -69,4 +69,4 @@ Hosting de alto rendimiento con tiempo de funcionamiento garantizado del 99.9%, 
 		</div>
 	</section>
 </div>
-<?php include 'footer.php';?>
+<?php include 'includes/footer.php';?>
