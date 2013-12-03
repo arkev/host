@@ -4,7 +4,7 @@
         <ul>
         	<li<?php if ($active_page=="inicio") echo " class='current'"; ?>><a href="/inicio">Inicio</a></li>
         	<li<?php if ($active_page=="servicios") echo " class='current'"; ?>><a href="/servicios">Servicios</a></li>
-        	<li><a href="#">Paquetes</a></li>
+        	<li<?php if ($active_page=="paquetes") echo " class='current'"; ?>><a href="/servicios"><a href="#">Paquetes</a></li>
         	<li><a href="#">Contacto</a></li>
         </ul>
     </nav>
